@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "download list",
+  "version": "0.12",
+  "permissions": [
+    "downloads"
+  ],
+  "content_scripts": [
+    {
+      "js": [ "googleList.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+    }
+  ]
+}
